@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Requirements file for Harris County Law Enforcement Resource Allocation Project
-
-This file lists all the Python packages required to run the analysis scripts.
-"""
 
 # Data processing and analysis
 pandas>=1.4.0
