@@ -1,0 +1,46 @@
+{
+  "dataset_name": "harris_county_zipcodes",
+  "file_path": "/home/ubuntu/harris_county_project/data/harris_county_zipcodes.geojson",
+  "feature_count": 155,
+  "crs": "EPSG:4326",
+  "attributes": [
+    "OBJECTID",
+    "ZIP",
+    "POSTAL",
+    "STATE",
+    "EDITOR",
+    "DATE_MOD",
+    "code",
+    "ZIP_TYPE",
+    "Shape__Area",
+    "Shape__Length",
+    "geometry"
+  ],
+  "geometry_type": "['MultiPolygon' 'Polygon']",
+  "missing_values": {},
+  "invalid_geometries": [],
+  "attribute_stats": {
+    "OBJECTID": {
+      "min": 1.0,
+      "max": 155.0,
+      "mean": 78.0,
+      "median": 78.0,
+      "std": 44.88875137492688
+    },
+    "Shape__Area": {
+      "min": 2554.37109375,
+      "max": 2426383857.31641,
+      "mean": 318966099.5436998,
+      "median": 207711431.339844,
+      "std": 365534169.13462377
+    },
+    "Shape__Length": {
+      "min": 1188.43566876223,
+      "max": 284792.700469399,
+      "mean": 92074.57364364754,
+      "median": 80837.970688854,
+      "std": 51155.27375584422
+    }
+  },
+  "invalid_geometries_count": 0
+}

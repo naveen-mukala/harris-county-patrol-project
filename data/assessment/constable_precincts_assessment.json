@@ -1,0 +1,81 @@
+{
+  "dataset_name": "constable_precincts",
+  "file_path": "/home/ubuntu/harris_county_project/data/constable_precincts.geojson",
+  "feature_count": 8,
+  "crs": "EPSG:4326",
+  "attributes": [
+    "OBJECTID",
+    "PRECINCT",
+    "JPCON",
+    "COMMISH",
+    "STREET",
+    "CITY",
+    "STATE",
+    "ZIP",
+    "PHONE",
+    "FAX",
+    "TDD",
+    "PCT_NUM",
+    "Shape_STAr",
+    "Shape_STLe",
+    "Web",
+    "Shape__Area",
+    "Shape__Length",
+    "geometry"
+  ],
+  "geometry_type": "['Polygon']",
+  "missing_values": {},
+  "invalid_geometries": [],
+  "attribute_stats": {
+    "OBJECTID": {
+      "min": 1.0,
+      "max": 8.0,
+      "mean": 4.5,
+      "median": 4.5,
+      "std": 2.449489742783178
+    },
+    "JPCON": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "std": 0.0
+    },
+    "PCT_NUM": {
+      "min": 1.0,
+      "max": 8.0,
+      "mean": 4.5,
+      "median": 4.5,
+      "std": 2.449489742783178
+    },
+    "Shape_STAr": {
+      "min": 890815874.904,
+      "max": 13181195963.1,
+      "mean": 6194195662.054251,
+      "median": 4447842655.055,
+      "std": 4508069229.194597
+    },
+    "Shape_STLe": {
+      "min": 194092.455536,
+      "max": 873469.608935,
+      "mean": 494641.071191625,
+      "median": 494992.93611949997,
+      "std": 225432.43498002307
+    },
+    "Shape__Area": {
+      "min": 890815443.9804688,
+      "max": 13181196784.339844,
+      "mean": 6194195674.103027,
+      "median": 4447842758.478516,
+      "std": 4508069469.410874
+    },
+    "Shape__Length": {
+      "min": 194091.59058749565,
+      "max": 873468.4475145922,
+      "mean": 494640.1284292031,
+      "median": 494991.30493322865,
+      "std": 225432.36942860938
+    }
+  },
+  "invalid_geometries_count": 0
+}

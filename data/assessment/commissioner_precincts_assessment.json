@@ -1,0 +1,53 @@
+{
+  "dataset_name": "commissioner_precincts",
+  "file_path": "/home/ubuntu/harris_county_project/data/commissioner_precincts.geojson",
+  "feature_count": 4,
+  "crs": "EPSG:4326",
+  "attributes": [
+    "OBJECTID",
+    "PCT_NO",
+    "AREA_IN_MI",
+    "URL",
+    "COMMISSION",
+    "Shape__Area",
+    "Shape__Length",
+    "GlobalID",
+    "geometry"
+  ],
+  "geometry_type": "['Polygon']",
+  "missing_values": {
+    "AREA_IN_MI": 4
+  },
+  "invalid_geometries": [],
+  "attribute_stats": {
+    "OBJECTID": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 2.5,
+      "median": 2.5,
+      "std": 1.2909944487358056
+    },
+    "PCT_NO": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 2.5,
+      "median": 2.5,
+      "std": 1.2909944487358056
+    },
+    "Shape__Area": {
+      "min": 1260937290.7695312,
+      "max": 1923607076.9882812,
+      "mean": 1535307304.6591797,
+      "median": 1478342425.4394531,
+      "std": 285164516.3508858
+    },
+    "Shape__Length": {
+      "min": 367710.9062206025,
+      "max": 491110.9586197713,
+      "mean": 411174.42102758004,
+      "median": 392937.9096349733,
+      "std": 56316.101718418344
+    }
+  },
+  "invalid_geometries_count": 0
+}

@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""
+Requirements file for Harris County Law Enforcement Resource Allocation Project
+
+This file lists all the Python packages required to run the analysis scripts.
+"""
+
+# Data processing and analysis
+pandas>=1.4.0
+numpy>=1.22.0
+geopandas>=1.0.0
+pyproj>=3.3.0
+shapely>=2.0.0
+
+# Machine learning
+scikit-learn>=1.0.0
+scipy>=1.8.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Mapping and spatial analysis
+mapclassify>=2.4.0

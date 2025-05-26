@@ -1,0 +1,12 @@
+Attribute,Data Type,Missing Values,Unique Values
+OBJECTID,int32,0,155.0
+ZIP,object,0,155.0
+POSTAL,object,0,36.0
+STATE,object,0,1.0
+EDITOR,object,0,9.0
+DATE_MOD,"datetime64[ms, UTC]",0,27.0
+code,object,0,8.0
+ZIP_TYPE,object,0,1.0
+Shape__Area,float64,0,155.0
+Shape__Length,float64,0,155.0
+geometry,geometry,0,

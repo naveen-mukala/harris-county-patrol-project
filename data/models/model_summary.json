@@ -1,0 +1,87 @@
+{
+  "model_type": "Spatial Optimization and Service Equity Analysis",
+  "input_datasets": [
+    "constable_precincts",
+    "commissioner_precincts",
+    "harris_county_zipcodes",
+    "eda_summary"
+  ],
+  "synthetic_points_generated": 199,
+  "optimal_stations_identified": 24,
+  "equity_metrics": {
+    "gini_coefficient": 0.3554769805610348,
+    "coverage_ratio": 0.7617681697147737,
+    "threshold_distance_km": 10,
+    "precinct_metrics": [
+      {
+        "precinct": 1,
+        "avg_distance_km": 5.90209086027237,
+        "max_distance_km": 11.292237308254354,
+        "min_distance_km": 1.0570856698545679,
+        "std_distance_km": 2.898313031471399,
+        "zipcode_count": 27
+      },
+      {
+        "precinct": 2,
+        "avg_distance_km": 4.490371096897874,
+        "max_distance_km": 9.309351312620198,
+        "min_distance_km": 0.9402123179228676,
+        "std_distance_km": 2.698440057024955,
+        "zipcode_count": 11
+      },
+      {
+        "precinct": 3,
+        "avg_distance_km": 7.588757242096982,
+        "max_distance_km": 16.950862347182362,
+        "min_distance_km": 1.9658018551546546,
+        "std_distance_km": 3.959641958622444,
+        "zipcode_count": 12
+      },
+      {
+        "precinct": 4,
+        "avg_distance_km": 12.129884002771528,
+        "max_distance_km": 27.922312006676464,
+        "min_distance_km": 0.713765889806337,
+        "std_distance_km": 6.848182460004009,
+        "zipcode_count": 32
+      },
+      {
+        "precinct": 5,
+        "avg_distance_km": 8.922671567276561,
+        "max_distance_km": 25.138981233431153,
+        "min_distance_km": 1.1722244390567382,
+        "std_distance_km": 5.167732994895108,
+        "zipcode_count": 21
+      },
+      {
+        "precinct": 6,
+        "avg_distance_km": 3.6053600573893414,
+        "max_distance_km": 7.982810451111253,
+        "min_distance_km": 0.5409625796100518,
+        "std_distance_km": 1.9687930104837241,
+        "zipcode_count": 13
+      },
+      {
+        "precinct": 7,
+        "avg_distance_km": 5.246465096224736,
+        "max_distance_km": 9.05930822254363,
+        "min_distance_km": 1.141829979461038,
+        "std_distance_km": 2.3430768800480486,
+        "zipcode_count": 23
+      },
+      {
+        "precinct": 8,
+        "avg_distance_km": 7.605154746921735,
+        "max_distance_km": 14.475972970972643,
+        "min_distance_km": 0.9343638921876798,
+        "std_distance_km": 3.8977822558512787,
+        "zipcode_count": 16
+      }
+    ]
+  },
+  "service_coverage": {
+    "total_area_covered_sq_km": 6128.625414825239,
+    "average_distance_km": 7.513347529741091,
+    "max_distance_km": 27.922312006676464
+  }
+}

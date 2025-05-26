@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "optimal_stations",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "precinct": 8, "station_id": "S8_1", "cluster_size": 9 }, "geometry": { "type": "Point", "coordinates": [ -95.109367921564441, 29.704727995156254 ] } },
+{ "type": "Feature", "properties": { "precinct": 8, "station_id": "S8_2", "cluster_size": 6 }, "geometry": { "type": "Point", "coordinates": [ -95.032961006127238, 29.622748228399765 ] } },
+{ "type": "Feature", "properties": { "precinct": 8, "station_id": "S8_3", "cluster_size": 2 }, "geometry": { "type": "Point", "coordinates": [ -95.176027248427602, 29.611834491919165 ] } },
+{ "type": "Feature", "properties": { "precinct": 2, "station_id": "S2_1", "cluster_size": 2 }, "geometry": { "type": "Point", "coordinates": [ -95.27036221663036, 29.763873747982547 ] } },
+{ "type": "Feature", "properties": { "precinct": 2, "station_id": "S2_2", "cluster_size": 3 }, "geometry": { "type": "Point", "coordinates": [ -95.180399472846105, 29.692805958466753 ] } },
+{ "type": "Feature", "properties": { "precinct": 2, "station_id": "S2_3", "cluster_size": 7 }, "geometry": { "type": "Point", "coordinates": [ -95.232135104160292, 29.591599934836953 ] } },
+{ "type": "Feature", "properties": { "precinct": 3, "station_id": "S3_1", "cluster_size": 6 }, "geometry": { "type": "Point", "coordinates": [ -95.273669680217168, 29.887325887427597 ] } },
+{ "type": "Feature", "properties": { "precinct": 3, "station_id": "S3_2", "cluster_size": 21 }, "geometry": { "type": "Point", "coordinates": [ -95.006051117755305, 29.877597210069059 ] } },
+{ "type": "Feature", "properties": { "precinct": 3, "station_id": "S3_3", "cluster_size": 15 }, "geometry": { "type": "Point", "coordinates": [ -95.140090869994296, 29.856591938791532 ] } },
+{ "type": "Feature", "properties": { "precinct": 4, "station_id": "S4_1", "cluster_size": 31 }, "geometry": { "type": "Point", "coordinates": [ -95.66120364595146, 30.071894313323828 ] } },
+{ "type": "Feature", "properties": { "precinct": 4, "station_id": "S4_2", "cluster_size": 9 }, "geometry": { "type": "Point", "coordinates": [ -95.292436295266356, 30.006881184035159 ] } },
+{ "type": "Feature", "properties": { "precinct": 4, "station_id": "S4_3", "cluster_size": 13 }, "geometry": { "type": "Point", "coordinates": [ -95.576171758167547, 29.972478289403682 ] } },
+{ "type": "Feature", "properties": { "precinct": 5, "station_id": "S5_1", "cluster_size": 8 }, "geometry": { "type": "Point", "coordinates": [ -95.663410878399276, 29.836681807421236 ] } },
+{ "type": "Feature", "properties": { "precinct": 5, "station_id": "S5_2", "cluster_size": 16 }, "geometry": { "type": "Point", "coordinates": [ -95.78024081873167, 29.916628239091523 ] } },
+{ "type": "Feature", "properties": { "precinct": 5, "station_id": "S5_3", "cluster_size": 18 }, "geometry": { "type": "Point", "coordinates": [ -95.582037603812992, 29.739681176044872 ] } },
+{ "type": "Feature", "properties": { "precinct": 7, "station_id": "S7_1", "cluster_size": 4 }, "geometry": { "type": "Point", "coordinates": [ -95.3867752123668, 29.632395038729808 ] } },
+{ "type": "Feature", "properties": { "precinct": 7, "station_id": "S7_2", "cluster_size": 5 }, "geometry": { "type": "Point", "coordinates": [ -95.364201397570596, 29.685072839520153 ] } },
+{ "type": "Feature", "properties": { "precinct": 7, "station_id": "S7_3", "cluster_size": 1 }, "geometry": { "type": "Point", "coordinates": [ -95.556037082426116, 29.65003524940467 ] } },
+{ "type": "Feature", "properties": { "precinct": 6, "station_id": "S6_1", "cluster_size": 2 }, "geometry": { "type": "Point", "coordinates": [ -95.271754759521883, 29.715308485499541 ] } },
+{ "type": "Feature", "properties": { "precinct": 6, "station_id": "S6_2", "cluster_size": 2 }, "geometry": { "type": "Point", "coordinates": [ -95.315146701366601, 29.742721761767143 ] } },
+{ "type": "Feature", "properties": { "precinct": 6, "station_id": "S6_3", "cluster_size": 1 }, "geometry": { "type": "Point", "coordinates": [ -95.35406569322123, 29.789374855019286 ] } },
+{ "type": "Feature", "properties": { "precinct": 1, "station_id": "S1_1", "cluster_size": 5 }, "geometry": { "type": "Point", "coordinates": [ -95.492779083087015, 29.875348036379059 ] } },
+{ "type": "Feature", "properties": { "precinct": 1, "station_id": "S1_2", "cluster_size": 7 }, "geometry": { "type": "Point", "coordinates": [ -95.412717266535509, 29.763180232902858 ] } },
+{ "type": "Feature", "properties": { "precinct": 1, "station_id": "S1_3", "cluster_size": 6 }, "geometry": { "type": "Point", "coordinates": [ -95.37832224018851, 29.852299804374503 ] } }
+]
+}

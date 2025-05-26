@@ -1,0 +1,19 @@
+Attribute,Data Type,Missing Values,Unique Values
+OBJECTID,int32,0,8.0
+PRECINCT,object,0,8.0
+JPCON,int32,0,1.0
+COMMISH,object,0,8.0
+STREET,object,0,8.0
+CITY,object,0,4.0
+STATE,object,0,1.0
+ZIP,object,0,8.0
+PHONE,object,0,8.0
+FAX,object,0,8.0
+TDD,object,0,7.0
+PCT_NUM,int32,0,8.0
+Shape_STAr,float64,0,8.0
+Shape_STLe,float64,0,8.0
+Web,object,0,8.0
+Shape__Area,float64,0,8.0
+Shape__Length,float64,0,8.0
+geometry,geometry,0,

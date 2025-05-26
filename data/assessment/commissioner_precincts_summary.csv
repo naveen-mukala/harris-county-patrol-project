@@ -1,0 +1,10 @@
+Attribute,Data Type,Missing Values,Unique Values
+OBJECTID,int32,0,4.0
+PCT_NO,int32,0,4.0
+AREA_IN_MI,object,4,0.0
+URL,object,0,4.0
+COMMISSION,object,0,4.0
+Shape__Area,float64,0,4.0
+Shape__Length,float64,0,4.0
+GlobalID,object,0,4.0
+geometry,geometry,0,

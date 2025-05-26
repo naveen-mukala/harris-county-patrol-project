@@ -1,0 +1,194 @@
+{
+  "assessment_date": "2025-05-26 01:32:32",
+  "datasets_assessed": [
+    "constable_precincts",
+    "commissioner_precincts",
+    "harris_county_zipcodes"
+  ],
+  "summary": {
+    "total_datasets": 3,
+    "datasets_with_issues": 1
+  },
+  "dataset_reports": {
+    "constable_precincts": {
+      "dataset_name": "constable_precincts",
+      "file_path": "/home/ubuntu/harris_county_project/data/constable_precincts.geojson",
+      "feature_count": 8,
+      "crs": "EPSG:4326",
+      "attributes": [
+        "OBJECTID",
+        "PRECINCT",
+        "JPCON",
+        "COMMISH",
+        "STREET",
+        "CITY",
+        "STATE",
+        "ZIP",
+        "PHONE",
+        "FAX",
+        "TDD",
+        "PCT_NUM",
+        "Shape_STAr",
+        "Shape_STLe",
+        "Web",
+        "Shape__Area",
+        "Shape__Length",
+        "geometry"
+      ],
+      "geometry_type": "['Polygon']",
+      "missing_values": {},
+      "invalid_geometries": [],
+      "attribute_stats": {
+        "OBJECTID": {
+          "min": 1.0,
+          "max": 8.0,
+          "mean": 4.5,
+          "median": 4.5,
+          "std": 2.449489742783178
+        },
+        "JPCON": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0
+        },
+        "PCT_NUM": {
+          "min": 1.0,
+          "max": 8.0,
+          "mean": 4.5,
+          "median": 4.5,
+          "std": 2.449489742783178
+        },
+        "Shape_STAr": {
+          "min": 890815874.904,
+          "max": 13181195963.1,
+          "mean": 6194195662.054251,
+          "median": 4447842655.055,
+          "std": 4508069229.194597
+        },
+        "Shape_STLe": {
+          "min": 194092.455536,
+          "max": 873469.608935,
+          "mean": 494641.071191625,
+          "median": 494992.93611949997,
+          "std": 225432.43498002307
+        },
+        "Shape__Area": {
+          "min": 890815443.9804688,
+          "max": 13181196784.339844,
+          "mean": 6194195674.103027,
+          "median": 4447842758.478516,
+          "std": 4508069469.410874
+        },
+        "Shape__Length": {
+          "min": 194091.59058749565,
+          "max": 873468.4475145922,
+          "mean": 494640.1284292031,
+          "median": 494991.30493322865,
+          "std": 225432.36942860938
+        }
+      },
+      "invalid_geometries_count": 0
+    },
+    "commissioner_precincts": {
+      "dataset_name": "commissioner_precincts",
+      "file_path": "/home/ubuntu/harris_county_project/data/commissioner_precincts.geojson",
+      "feature_count": 4,
+      "crs": "EPSG:4326",
+      "attributes": [
+        "OBJECTID",
+        "PCT_NO",
+        "AREA_IN_MI",
+        "URL",
+        "COMMISSION",
+        "Shape__Area",
+        "Shape__Length",
+        "GlobalID",
+        "geometry"
+      ],
+      "geometry_type": "['Polygon']",
+      "missing_values": {
+        "AREA_IN_MI": 4
+      },
+      "invalid_geometries": [],
+      "attribute_stats": {
+        "OBJECTID": {
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.5,
+          "median": 2.5,
+          "std": 1.2909944487358056
+        },
+        "PCT_NO": {
+          "min": 1.0,
+          "max": 4.0,
+          "mean": 2.5,
+          "median": 2.5,
+          "std": 1.2909944487358056
+        },
+        "Shape__Area": {
+          "min": 1260937290.7695312,
+          "max": 1923607076.9882812,
+          "mean": 1535307304.6591797,
+          "median": 1478342425.4394531,
+          "std": 285164516.3508858
+        },
+        "Shape__Length": {
+          "min": 367710.9062206025,
+          "max": 491110.9586197713,
+          "mean": 411174.42102758004,
+          "median": 392937.9096349733,
+          "std": 56316.101718418344
+        }
+      },
+      "invalid_geometries_count": 0
+    },
+    "harris_county_zipcodes": {
+      "dataset_name": "harris_county_zipcodes",
+      "file_path": "/home/ubuntu/harris_county_project/data/harris_county_zipcodes.geojson",
+      "feature_count": 155,
+      "crs": "EPSG:4326",
+      "attributes": [
+        "OBJECTID",
+        "ZIP",
+        "POSTAL",
+        "STATE",
+        "EDITOR",
+        "DATE_MOD",
+        "code",
+        "ZIP_TYPE",
+        "Shape__Area",
+        "Shape__Length",
+        "geometry"
+      ],
+      "geometry_type": "['MultiPolygon' 'Polygon']",
+      "missing_values": {},
+      "invalid_geometries": [],
+      "attribute_stats": {
+        "OBJECTID": {
+          "min": 1.0,
+          "max": 155.0,
+          "mean": 78.0,
+          "median": 78.0,
+          "std": 44.88875137492688
+        },
+        "Shape__Area": {
+          "min": 2554.37109375,
+          "max": 2426383857.31641,
+          "mean": 318966099.5436998,
+          "median": 207711431.339844,
+          "std": 365534169.13462377
+        },
+        "Shape__Length": {
+          "min": 1188.43566876223,
+          "max": 284792.700469399,
+          "mean": 92074.57364364754,
+          "median": 80837.970688854,
+          "std": 51155.27375584422
+        }
+      },
+      "invalid_geometries_count": 0
+    }
+  }
+}
